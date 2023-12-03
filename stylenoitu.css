@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+html,body
+{
+    background-color: #C850C0;
+    background-image: linear-gradient(140deg, #FFCC70 0%, #C850C0 40%, #4158D0);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+ul
+{
+    display: flex;
+    align-items: center;
+    padding-left: unset;
+}
+li 
+{
+    list-style: none;
+    height: auto;
+}
+.container
+{
+    max-width: 60%;
+    margin: auto;
+}
+
+.header > ul
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.save__word
+{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.input__word,.complete__word,.first-word
+{
+    width: 100%;
+    border-radius: 0px 5px 5px 0px;
+    outline: none;
+    height: 40px;
+    border: 1px solid rgb(224, 223, 223);
+    padding-left: 5px;
+    transition: all 0.25s ease;
+}
+
+.first-word
+{
+    width: auto;
+    margin: unset;
+    border-radius: 5px 0px 0px 5px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 42px;
+    padding: 0 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.input__word:focus, .complete__word:focus
+{
+    border-color: rgb(102, 102, 221);
+}
+
+.user
+{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.submit, .answer
+{
+    width: 100px;
+    margin-left: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color:  rgb(102, 102, 221);
+}
+
+.submit__result
+{
+    width: 100px;
+    margin-left: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color:  rgb(102, 102, 221);
+}
+
+.result
+{
+    width: 100%;
+}
+.point
+{
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    margin: unset;
+
+}
+
+.answer
+{
+    height: 25px;
+    border-radius: 10px;
+}
+
+.hearts
+{
+    display: flex;
+    align-items: center;
+}
+.hearts>i
+{
+    color: white
+}
+
+.heart
+{
+    padding-left: 5px;
+    color: white;
+}
+
+.fa-house
+{
+    color: white;
+    font-size: 20px;
+}
+
+.origin-word, .reload
+{
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    text-decoration: none;
+}
+
+.game
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reload
+{
+    background-color: white;
+    color: black;
+    width: 170px;
+    font-size: 25px;
+    border-radius: 10px;
+    display: none;
+}
+.game__play
+{
+    width: 100%;
+}

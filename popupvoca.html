@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #FDF7E4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        #container {
+            text-align: center;
+        }
+
+        #title {
+            font-size: 24px;
+            padding: 20px;
+        }
+
+        #button-container {
+            display: flex;
+            align-items: center;
+            background-color: #FDF7E4;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            margin-top: 20px; /* Khoảng cách giữa tiêu đề và nút */
+        }
+
+        .button {
+            padding: 15px 30px;
+            cursor: pointer;
+            border: none;
+            border-radius: 6px;
+            font-size: 18px;
+            text-decoration: none;
+            color: #FDF7E4;
+            transition: background-color 0.3s;
+        }
+
+        #button1 {
+            background-color: #BBAB8C;
+        }
+
+        #button2 {
+            background-color: #BBAB8C;
+        }
+
+        #button-container a:not(:last-child) {
+            margin-right: 10px; /* Khoảng cách giữa các button */
+        }
+
+        .button:hover {
+            background-color:#FDF7E4;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <div id="title">Bạn muốn:</div>
+        <div id="button-container">
+            <a id="button1" class="button" href="./popup.html">Kiểm tra từ vựng của tôi</a>
+            <a id="button2" class="button" href="./popupdientu.html">Kiểm tra từ vựng da đang</a>
+        </div>
+    </div>
+
+</body>
+</html>
